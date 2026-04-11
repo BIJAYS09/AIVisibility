@@ -1,0 +1,56 @@
+{
+  "version": "1.0",
+  "description": "Competitive prompt bank — queries a potential buyer might ask an AI",
+  "prompts": [
+    {
+      "id": "crm-001",
+      "category": "CRM",
+      "text": "What are the best CRM tools for startups in 2024?"
+    },
+    {
+      "id": "crm-002",
+      "category": "CRM",
+      "text": "Compare HubSpot, Salesforce, and Pipedrive for a 10-person sales team."
+    },
+    {
+      "id": "crm-003",
+      "category": "CRM",
+      "text": "Which CRM has the best free plan for early-stage companies?"
+    },
+    {
+      "id": "pm-001",
+      "category": "Project Management",
+      "text": "What are the top project management tools for remote teams?"
+    },
+    {
+      "id": "pm-002",
+      "category": "Project Management",
+      "text": "Is Notion or Linear better for a product team?"
+    },
+    {
+      "id": "pm-003",
+      "category": "Project Management",
+      "text": "Recommend a project management tool for a SaaS company of 20 people."
+    },
+    {
+      "id": "hr-001",
+      "category": "HR Software",
+      "text": "What HR software is best for companies under 50 employees?"
+    },
+    {
+      "id": "hr-002",
+      "category": "HR Software",
+      "text": "Compare Rippling, Gusto, and Deel for payroll and HR management."
+    },
+    {
+      "id": "mkt-001",
+      "category": "Marketing",
+      "text": "What are the best email marketing platforms for e-commerce?"
+    },
+    {
+      "id": "mkt-002",
+      "category": "Marketing",
+      "text": "Which marketing automation tools do growth teams recommend?"
+    }
+  ]
+}
