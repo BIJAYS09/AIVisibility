@@ -1,0 +1,7 @@
+spacy
+textblob
+pytest
+
+# After pip install, also run:
+# python -m spacy download en_core_web_sm
+# python -m textblob.download_corpora

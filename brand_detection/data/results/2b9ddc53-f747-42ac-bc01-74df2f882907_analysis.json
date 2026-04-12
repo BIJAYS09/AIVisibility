@@ -1,0 +1,101 @@
+{
+  "record_id": "2b9ddc53-f747-42ac-bc01-74df2f882907",
+  "prompt_id": "pm-001",
+  "category": "Project Management",
+  "prompt_text": "What are the top project management tools for remote teams?",
+  "model": "llama-3.3-70b-versatile",
+  "timestamp": "2026-04-11T19:42:26.787535+00:00",
+  "brands": [
+    {
+      "brand": "YourBrand",
+      "mentioned": false,
+      "mention_count": 0,
+      "first_mention_rank": null,
+      "position_score": 0.0,
+      "avg_sentiment": 0.0,
+      "sentiment_label": "neutral",
+      "mentions": []
+    },
+    {
+      "brand": "HubSpot",
+      "mentioned": false,
+      "mention_count": 0,
+      "first_mention_rank": null,
+      "position_score": 0.0,
+      "avg_sentiment": 0.0,
+      "sentiment_label": "neutral",
+      "mentions": []
+    },
+    {
+      "brand": "Salesforce",
+      "mentioned": false,
+      "mention_count": 0,
+      "first_mention_rank": null,
+      "position_score": 0.0,
+      "avg_sentiment": 0.0,
+      "sentiment_label": "neutral",
+      "mentions": []
+    },
+    {
+      "brand": "Pipedrive",
+      "mentioned": false,
+      "mention_count": 0,
+      "first_mention_rank": null,
+      "position_score": 0.0,
+      "avg_sentiment": 0.0,
+      "sentiment_label": "neutral",
+      "mentions": []
+    },
+    {
+      "brand": "Monday.com",
+      "mentioned": true,
+      "mention_count": 2,
+      "first_mention_rank": 1,
+      "position_score": 1.0,
+      "avg_sentiment": 0.45,
+      "sentiment_label": "positive",
+      "mentions": [
+        {
+          "brand": "Monday.com",
+          "matched_text": "Monday.com",
+          "method": "keyword",
+          "sentence": "**Monday.com**: A work operating system that offers features like customizable workflows, automations, and integrations, Monday.com is great for teams that need to streamline their workflow.",
+          "sentence_index": 15,
+          "char_offset": 1847,
+          "sentiment": 0.45,
+          "sentiment_label": "positive"
+        },
+        {
+          "brand": "Monday.com",
+          "matched_text": "Monday.com",
+          "method": "keyword",
+          "sentence": "**Monday.com**: A work operating system that offers features like customizable workflows, automations, and integrations, Monday.com is great for teams that need to streamline their workflow.",
+          "sentence_index": 15,
+          "char_offset": 1966,
+          "sentiment": 0.45,
+          "sentiment_label": "positive"
+        }
+      ]
+    },
+    {
+      "brand": "Notion",
+      "mentioned": false,
+      "mention_count": 0,
+      "first_mention_rank": null,
+      "position_score": 0.0,
+      "avg_sentiment": 0.0,
+      "sentiment_label": "neutral",
+      "mentions": []
+    },
+    {
+      "brand": "Linear",
+      "mentioned": false,
+      "mention_count": 0,
+      "first_mention_rank": null,
+      "position_score": 0.0,
+      "avg_sentiment": 0.0,
+      "sentiment_label": "neutral",
+      "mentions": []
+    }
+  ]
+}

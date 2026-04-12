@@ -1,0 +1,272 @@
+{
+  "record_id": "4490d97a-022a-4cd5-b852-11c44889aa3a",
+  "prompt_id": "pm-002",
+  "category": "Project Management",
+  "prompt_text": "Is Notion or Linear better for a product team?",
+  "model": "llama-3.3-70b-versatile",
+  "timestamp": "2026-04-11T19:42:29.805376+00:00",
+  "brands": [
+    {
+      "brand": "YourBrand",
+      "mentioned": false,
+      "mention_count": 0,
+      "first_mention_rank": null,
+      "position_score": 0.0,
+      "avg_sentiment": 0.0,
+      "sentiment_label": "neutral",
+      "mentions": []
+    },
+    {
+      "brand": "HubSpot",
+      "mentioned": false,
+      "mention_count": 0,
+      "first_mention_rank": null,
+      "position_score": 0.0,
+      "avg_sentiment": 0.0,
+      "sentiment_label": "neutral",
+      "mentions": []
+    },
+    {
+      "brand": "Salesforce",
+      "mentioned": false,
+      "mention_count": 0,
+      "first_mention_rank": null,
+      "position_score": 0.0,
+      "avg_sentiment": 0.0,
+      "sentiment_label": "neutral",
+      "mentions": []
+    },
+    {
+      "brand": "Pipedrive",
+      "mentioned": false,
+      "mention_count": 0,
+      "first_mention_rank": null,
+      "position_score": 0.0,
+      "avg_sentiment": 0.0,
+      "sentiment_label": "neutral",
+      "mentions": []
+    },
+    {
+      "brand": "Monday.com",
+      "mentioned": false,
+      "mention_count": 0,
+      "first_mention_rank": null,
+      "position_score": 0.0,
+      "avg_sentiment": 0.0,
+      "sentiment_label": "neutral",
+      "mentions": []
+    },
+    {
+      "brand": "Notion",
+      "mentioned": true,
+      "mention_count": 8,
+      "first_mention_rank": 1,
+      "position_score": 1.0,
+      "avg_sentiment": 0.1228,
+      "sentiment_label": "positive",
+      "mentions": [
+        {
+          "brand": "Notion",
+          "matched_text": "Notion",
+          "method": "keyword",
+          "sentence": "Both Notion and Linear are popular tools used by product teams, but they serve different purposes and have different strengths.",
+          "sentence_index": 0,
+          "char_offset": 5,
+          "sentiment": 0.2,
+          "sentiment_label": "positive"
+        },
+        {
+          "brand": "Notion",
+          "matched_text": "Notion",
+          "method": "keyword",
+          "sentence": "Here's a brief comparison:\n\n**Notion:**\n\n*",
+          "sentence_index": 2,
+          "char_offset": 247,
+          "sentiment": 0.0,
+          "sentiment_label": "neutral"
+        },
+        {
+          "brand": "Notion",
+          "matched_text": "Notion",
+          "method": "keyword",
+          "sentence": "Consider the following questions to help you decide between Notion and Linear:\n\n1. **",
+          "sentence_index": 16,
+          "char_offset": 1197,
+          "sentiment": 0.0,
+          "sentiment_label": "neutral"
+        },
+        {
+          "brand": "Notion",
+          "matched_text": "Notion",
+          "method": "keyword",
+          "sentence": "If you need a tool for general knowledge management, note-taking, and collaboration, Notion might be a better fit.",
+          "sentence_index": 20,
+          "char_offset": 1380,
+          "sentiment": 0.3167,
+          "sentiment_label": "positive"
+        },
+        {
+          "brand": "Notion",
+          "matched_text": "Notion",
+          "method": "keyword",
+          "sentence": "If your team has a complex, custom workflow, Notion's flexibility might be beneficial.",
+          "sentence_index": 25,
+          "char_offset": 1600,
+          "sentiment": -0.3,
+          "sentiment_label": "negative"
+        },
+        {
+          "brand": "Notion",
+          "matched_text": "Notion",
+          "method": "keyword",
+          "sentence": "** Notion offers a free plan with generous limits, while Linear's free plan is more limited.",
+          "sentence_index": 31,
+          "char_offset": 2023,
+          "sentiment": 0.2657,
+          "sentiment_label": "positive"
+        },
+        {
+          "brand": "Notion",
+          "matched_text": "Notion",
+          "method": "keyword",
+          "sentence": "However, Linear's paid plans are more affordable than Notion's enterprise plans.",
+          "sentence_index": 32,
+          "char_offset": 2166,
+          "sentiment": 0.5,
+          "sentiment_label": "positive"
+        },
+        {
+          "brand": "Notion",
+          "matched_text": "Notion",
+          "method": "keyword",
+          "sentence": "* Use Notion as a general-purpose workspace for knowledge management, documentation, and collaboration.",
+          "sentence_index": 34,
+          "char_offset": 2260,
+          "sentiment": 0.0,
+          "sentiment_label": "neutral"
+        }
+      ]
+    },
+    {
+      "brand": "Linear",
+      "mentioned": true,
+      "mention_count": 11,
+      "first_mention_rank": 2,
+      "position_score": 0.5,
+      "avg_sentiment": 0.1719,
+      "sentiment_label": "positive",
+      "mentions": [
+        {
+          "brand": "Linear",
+          "matched_text": "Linear",
+          "method": "keyword",
+          "sentence": "Both Notion and Linear are popular tools used by product teams, but they serve different purposes and have different strengths.",
+          "sentence_index": 0,
+          "char_offset": 16,
+          "sentiment": 0.2,
+          "sentiment_label": "positive"
+        },
+        {
+          "brand": "Linear",
+          "matched_text": "Linear",
+          "method": "keyword",
+          "sentence": "**Linear:**\n\n*",
+          "sentence_index": 9,
+          "char_offset": 670,
+          "sentiment": 0.0,
+          "sentiment_label": "neutral"
+        },
+        {
+          "brand": "Linear",
+          "matched_text": "linear",
+          "method": "keyword",
+          "sentence": "* Provides a clear, linear (hence the name) workflow that helps teams move issues from start to finish.",
+          "sentence_index": 15,
+          "char_offset": 1052,
+          "sentiment": 0.1,
+          "sentiment_label": "positive"
+        },
+        {
+          "brand": "Linear",
+          "matched_text": "Linear",
+          "method": "keyword",
+          "sentence": "Consider the following questions to help you decide between Notion and Linear:\n\n1. **",
+          "sentence_index": 16,
+          "char_offset": 1208,
+          "sentiment": 0.0,
+          "sentiment_label": "neutral"
+        },
+        {
+          "brand": "Linear",
+          "matched_text": "Linear",
+          "method": "keyword",
+          "sentence": "If you're looking for a dedicated issue tracker and project management tool, Linear is a stronger choice.",
+          "sentence_index": 21,
+          "char_offset": 1486,
+          "sentiment": 0.0,
+          "sentiment_label": "neutral"
+        },
+        {
+          "brand": "Linear",
+          "matched_text": "linear",
+          "method": "keyword",
+          "sentence": "If your team follows a more traditional, linear workflow (e.g., issue \u2192 in progress \u2192 done), Linear's simplicity and structure might be a better fit.",
+          "sentence_index": 26,
+          "char_offset": 1682,
+          "sentiment": 0.35,
+          "sentiment_label": "positive"
+        },
+        {
+          "brand": "Linear",
+          "matched_text": "Linear",
+          "method": "keyword",
+          "sentence": "If your team follows a more traditional, linear workflow (e.g., issue \u2192 in progress \u2192 done), Linear's simplicity and structure might be a better fit.",
+          "sentence_index": 26,
+          "char_offset": 1734,
+          "sentiment": 0.35,
+          "sentiment_label": "positive"
+        },
+        {
+          "brand": "Linear",
+          "matched_text": "Linear",
+          "method": "keyword",
+          "sentence": "If your team uses GitHub, GitLab, or other development tools, Linear's integrations might be a significant advantage.",
+          "sentence_index": 29,
+          "char_offset": 1912,
+          "sentiment": 0.125,
+          "sentiment_label": "positive"
+        },
+        {
+          "brand": "Linear",
+          "matched_text": "Linear",
+          "method": "keyword",
+          "sentence": "** Notion offers a free plan with generous limits, while Linear's free plan is more limited.",
+          "sentence_index": 31,
+          "char_offset": 2077,
+          "sentiment": 0.2657,
+          "sentiment_label": "positive"
+        },
+        {
+          "brand": "Linear",
+          "matched_text": "Linear",
+          "method": "keyword",
+          "sentence": "However, Linear's paid plans are more affordable than Notion's enterprise plans.",
+          "sentence_index": 32,
+          "char_offset": 2121,
+          "sentiment": 0.5,
+          "sentiment_label": "positive"
+        },
+        {
+          "brand": "Linear",
+          "matched_text": "Linear",
+          "method": "keyword",
+          "sentence": "* Use Linear as a dedicated issue tracker and project management tool for your software development workflow.",
+          "sentence_index": 35,
+          "char_offset": 2364,
+          "sentiment": 0.0,
+          "sentiment_label": "neutral"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "record_id": "1a262f0f-865e-4025-bbc0-b257e392f9dc",
+  "prompt_id": "crm-001",
+  "category": "CRM",
+  "prompt_text": "What are the best CRM tools for startups in 2024?",
+  "model": "llama-3.3-70b-versatile",
+  "timestamp": "2026-04-11T19:42:18.324794+00:00",
+  "brands": [
+    {
+      "brand": "YourBrand",
+      "mentioned": false,
+      "mention_count": 0,
+      "first_mention_rank": null,
+      "position_score": 0.0,
+      "avg_sentiment": 0.0,
+      "sentiment_label": "neutral",
+      "mentions": []
+    },
+    {
+      "brand": "HubSpot",
+      "mentioned": true,
+      "mention_count": 1,
+      "first_mention_rank": 1,
+      "position_score": 1.0,
+      "avg_sentiment": 0.3667,
+      "sentiment_label": "positive",
+      "mentions": [
+        {
+          "brand": "HubSpot",
+          "matched_text": "HubSpot",
+          "method": "keyword",
+          "sentence": "**HubSpot CRM**: A popular, user-friendly CRM that offers a free plan and is scalable for growing startups.",
+          "sentence_index": 1,
+          "char_offset": 98,
+          "sentiment": 0.3667,
+          "sentiment_label": "positive"
+        }
+      ]
+    },
+    {
+      "brand": "Salesforce",
+      "mentioned": true,
+      "mention_count": 2,
+      "first_mention_rank": 2,
+      "position_score": 0.5,
+      "avg_sentiment": 0.05,
+      "sentiment_label": "neutral",
+      "mentions": [
+        {
+          "brand": "Salesforce",
+          "matched_text": "Salesforce",
+          "method": "keyword",
+          "sentence": "2. **Salesforce Essentials**: A simplified version of the full Salesforce platform, designed specifically for small businesses and startups.",
+          "sentence_index": 3,
+          "char_offset": 305,
+          "sentiment": 0.05,
+          "sentiment_label": "neutral"
+        },
+        {
+          "brand": "Salesforce",
+          "matched_text": "Salesforce",
+          "method": "keyword",
+          "sentence": "2. **Salesforce Essentials**: A simplified version of the full Salesforce platform, designed specifically for small businesses and startups.",
+          "sentence_index": 3,
+          "char_offset": 363,
+          "sentiment": 0.05,
+          "sentiment_label": "neutral"
+        }
+      ]
+    },
+    {
+      "brand": "Pipedrive",
+      "mentioned": true,
+      "mention_count": 1,
+      "first_mention_rank": 3,
+      "position_score": 0.5,
+      "avg_sentiment": 0.5,
+      "sentiment_label": "positive",
+      "mentions": [
+        {
+          "brand": "Pipedrive",
+          "matched_text": "Pipedrive",
+          "method": "keyword",
+          "sentence": "4. **Pipedrive**: A sales-focused CRM that helps startups manage their sales pipeline and close more deals.",
+          "sentence_index": 7,
+          "char_offset": 733,
+          "sentiment": 0.5,
+          "sentiment_label": "positive"
+        }
+      ]
+    },
+    {
+      "brand": "Monday.com",
+      "mentioned": true,
+      "mention_count": 1,
+      "first_mention_rank": 4,
+      "position_score": 0.5,
+      "avg_sentiment": 0.0,
+      "sentiment_label": "neutral",
+      "mentions": [
+        {
+          "brand": "Monday.com",
+          "matched_text": "Monday.com",
+          "method": "keyword",
+          "sentence": "**Monday.com**: A work operating system that includes a CRM module, offering a range of features like contact management, sales pipeline tracking, and marketing automation.",
+          "sentence_index": 22,
+          "char_offset": 1955,
+          "sentiment": 0.0,
+          "sentiment_label": "neutral"
+        }
+      ]
+    },
+    {
+      "brand": "Notion",
+      "mentioned": false,
+      "mention_count": 0,
+      "first_mention_rank": null,
+      "position_score": 0.0,
+      "avg_sentiment": 0.0,
+      "sentiment_label": "neutral",
+      "mentions": []
+    },
+    {
+      "brand": "Linear",
+      "mentioned": false,
+      "mention_count": 0,
+      "first_mention_rank": null,
+      "position_score": 0.0,
+      "avg_sentiment": 0.0,
+      "sentiment_label": "neutral",
+      "mentions": []
+    }
+  ]
+}

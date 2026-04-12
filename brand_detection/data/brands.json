@@ -1,0 +1,41 @@
+{
+  "version": "1.0",
+  "description": "Brands to track. Add aliases for all name variants the AI might use.",
+  "brands": [
+    {
+      "name": "YourBrand",
+      "aliases": ["Your Brand", "yourbrand.io", "YB"],
+      "is_own_brand": true
+    },
+    {
+      "name": "HubSpot",
+      "aliases": ["Hubspot", "HubSpot CRM"],
+      "is_own_brand": false
+    },
+    {
+      "name": "Salesforce",
+      "aliases": ["salesforce.com", "SFDC", "Sales Cloud"],
+      "is_own_brand": false
+    },
+    {
+      "name": "Pipedrive",
+      "aliases": [],
+      "is_own_brand": false
+    },
+    {
+      "name": "Monday.com",
+      "aliases": ["Monday", "monday"],
+      "is_own_brand": false
+    },
+    {
+      "name": "Notion",
+      "aliases": [],
+      "is_own_brand": false
+    },
+    {
+      "name": "Linear",
+      "aliases": [],
+      "is_own_brand": false
+    }
+  ]
+}

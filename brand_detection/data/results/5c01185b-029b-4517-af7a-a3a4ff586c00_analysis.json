@@ -1,0 +1,182 @@
+{
+  "record_id": "5c01185b-029b-4517-af7a-a3a4ff586c00",
+  "prompt_id": "crm-003",
+  "category": "CRM",
+  "prompt_text": "Which CRM has the best free plan for early-stage companies?",
+  "model": "llama-3.3-70b-versatile",
+  "timestamp": "2026-04-11T19:42:24.335438+00:00",
+  "brands": [
+    {
+      "brand": "YourBrand",
+      "mentioned": false,
+      "mention_count": 0,
+      "first_mention_rank": null,
+      "position_score": 0.0,
+      "avg_sentiment": 0.0,
+      "sentiment_label": "neutral",
+      "mentions": []
+    },
+    {
+      "brand": "HubSpot",
+      "mentioned": true,
+      "mention_count": 7,
+      "first_mention_rank": 1,
+      "position_score": 1.0,
+      "avg_sentiment": 0.1536,
+      "sentiment_label": "positive",
+      "mentions": [
+        {
+          "brand": "HubSpot",
+          "matched_text": "HubSpot",
+          "method": "keyword",
+          "sentence": "**HubSpot CRM**: HubSpot offers a robust free plan that includes features like contact management, sales pipeline management, and meeting scheduling.",
+          "sentence_index": 2,
+          "char_offset": 227,
+          "sentiment": 0.25,
+          "sentiment_label": "positive"
+        },
+        {
+          "brand": "HubSpot",
+          "matched_text": "HubSpot",
+          "method": "keyword",
+          "sentence": "**HubSpot CRM**: HubSpot offers a robust free plan that includes features like contact management, sales pipeline management, and meeting scheduling.",
+          "sentence_index": 2,
+          "char_offset": 242,
+          "sentiment": 0.25,
+          "sentiment_label": "positive"
+        },
+        {
+          "brand": "HubSpot",
+          "matched_text": "HubSpot",
+          "method": "keyword",
+          "sentence": "It's an excellent choice for early-stage companies, as it's scalable and integrates well with other HubSpot tools.",
+          "sentence_index": 3,
+          "char_offset": 474,
+          "sentiment": 0.4375,
+          "sentiment_label": "positive"
+        },
+        {
+          "brand": "HubSpot",
+          "matched_text": "HubSpot",
+          "method": "keyword",
+          "sentence": "Based on the features and limitations of each CRM, I'd recommend **HubSpot CRM** for early-stage companies.",
+          "sentence_index": 12,
+          "char_offset": 1477,
+          "sentiment": 0.0,
+          "sentiment_label": "neutral"
+        },
+        {
+          "brand": "HubSpot",
+          "matched_text": "HubSpot",
+          "method": "keyword",
+          "sentence": "Its free plan is robust, scalable, and integrates well with other HubSpot tools.",
+          "sentence_index": 13,
+          "char_offset": 1583,
+          "sentiment": 0.1375,
+          "sentiment_label": "positive"
+        },
+        {
+          "brand": "HubSpot",
+          "matched_text": "HubSpot",
+          "method": "keyword",
+          "sentence": "Additionally, HubSpot offers a wide range of resources, including blogs, webinars, and online courses, to help businesses grow and succeed.",
+          "sentence_index": 14,
+          "char_offset": 1611,
+          "sentiment": 0.0,
+          "sentiment_label": "neutral"
+        },
+        {
+          "brand": "HubSpot",
+          "matched_text": "HubSpot",
+          "method": "keyword",
+          "sentence": "| User Limit | Storage Limit |\n| --- | --- | --- | --- |\n| HubSpot CRM",
+          "sentence_index": 16,
+          "char_offset": 1902,
+          "sentiment": 0.0,
+          "sentiment_label": "neutral"
+        }
+      ]
+    },
+    {
+      "brand": "Salesforce",
+      "mentioned": false,
+      "mention_count": 0,
+      "first_mention_rank": null,
+      "position_score": 0.0,
+      "avg_sentiment": 0.0,
+      "sentiment_label": "neutral",
+      "mentions": []
+    },
+    {
+      "brand": "Pipedrive",
+      "mentioned": true,
+      "mention_count": 3,
+      "first_mention_rank": 2,
+      "position_score": 0.5,
+      "avg_sentiment": 0.1381,
+      "sentiment_label": "positive",
+      "mentions": [
+        {
+          "brand": "Pipedrive",
+          "matched_text": "Pipedrive",
+          "method": "keyword",
+          "sentence": "3. **Pipedrive**: Pipedrive's free plan is limited to one user, but it offers a 14-day free trial for its paid plans.",
+          "sentence_index": 6,
+          "char_offset": 733,
+          "sentiment": 0.2071,
+          "sentiment_label": "positive"
+        },
+        {
+          "brand": "Pipedrive",
+          "matched_text": "Pipedrive",
+          "method": "keyword",
+          "sentence": "3. **Pipedrive**: Pipedrive's free plan is limited to one user, but it offers a 14-day free trial for its paid plans.",
+          "sentence_index": 6,
+          "char_offset": 746,
+          "sentiment": 0.2071,
+          "sentiment_label": "positive"
+        },
+        {
+          "brand": "Pipedrive",
+          "matched_text": "Pipedrive",
+          "method": "keyword",
+          "sentence": "| Contact management, sales pipeline management, meeting scheduling | Unlimited | 1,000,000 contacts, 1,000,000 activities |\n| Zoho CRM | Lead management, contact management, sales pipeline management | 10 users | 100,000 records |\n| Pipedrive | Sales pipeline management, contact management | 1 user | 100 MB |",
+          "sentence_index": 17,
+          "char_offset": 2147,
+          "sentiment": 0.0,
+          "sentiment_label": "neutral"
+        }
+      ]
+    },
+    {
+      "brand": "Monday.com",
+      "mentioned": false,
+      "mention_count": 0,
+      "first_mention_rank": null,
+      "position_score": 0.0,
+      "avg_sentiment": 0.0,
+      "sentiment_label": "neutral",
+      "mentions": []
+    },
+    {
+      "brand": "Notion",
+      "mentioned": false,
+      "mention_count": 0,
+      "first_mention_rank": null,
+      "position_score": 0.0,
+      "avg_sentiment": 0.0,
+      "sentiment_label": "neutral",
+      "mentions": []
+    },
+    {
+      "brand": "Linear",
+      "mentioned": false,
+      "mention_count": 0,
+      "first_mention_rank": null,
+      "position_score": 0.0,
+      "avg_sentiment": 0.0,
+      "sentiment_label": "neutral",
+      "mentions": []
+    }
+  ]
+}

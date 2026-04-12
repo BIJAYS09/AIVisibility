@@ -1,0 +1,393 @@
+{
+  "record_id": "9bf68ed4-949f-4317-818f-e279fd6256ab",
+  "prompt_id": "crm-002",
+  "category": "CRM",
+  "prompt_text": "Compare HubSpot, Salesforce, and Pipedrive for a 10-person sales team.",
+  "model": "llama-3.3-70b-versatile",
+  "timestamp": "2026-04-11T19:42:21.769134+00:00",
+  "brands": [
+    {
+      "brand": "YourBrand",
+      "mentioned": false,
+      "mention_count": 0,
+      "first_mention_rank": null,
+      "position_score": 0.0,
+      "avg_sentiment": 0.0,
+      "sentiment_label": "neutral",
+      "mentions": []
+    },
+    {
+      "brand": "HubSpot",
+      "mentioned": true,
+      "mention_count": 11,
+      "first_mention_rank": 1,
+      "position_score": 1.0,
+      "avg_sentiment": 0.1591,
+      "sentiment_label": "positive",
+      "mentions": [
+        {
+          "brand": "HubSpot",
+          "matched_text": "HubSpot",
+          "method": "keyword",
+          "sentence": "Here's a comparison of HubSpot, Salesforce, and Pipedrive:\n\n**Overview**\n\n1. **HubSpot**: An all-in-one platform that offers sales, marketing, and customer service tools.",
+          "sentence_index": 1,
+          "char_offset": 176,
+          "sentiment": 0.1,
+          "sentiment_label": "positive"
+        },
+        {
+          "brand": "HubSpot",
+          "matched_text": "HubSpot",
+          "method": "keyword",
+          "sentence": "Here's a comparison of HubSpot, Salesforce, and Pipedrive:\n\n**Overview**\n\n1. **HubSpot**: An all-in-one platform that offers sales, marketing, and customer service tools.",
+          "sentence_index": 1,
+          "char_offset": 232,
+          "sentiment": 0.1,
+          "sentiment_label": "positive"
+        },
+        {
+          "brand": "HubSpot",
+          "matched_text": "HubSpot",
+          "method": "keyword",
+          "sentence": "**Key Features**\n\n1. **HubSpot**:\n\t* Sales pipeline management\n\t* Contact and company management\n\t* Email templates and sequencing\n\t* Meeting scheduling\n\t* Integration with marketing and customer service tools\n\t* Reporting and analytics\n2.",
+          "sentence_index": 7,
+          "char_offset": 790,
+          "sentiment": 0.0,
+          "sentiment_label": "neutral"
+        },
+        {
+          "brand": "HubSpot",
+          "matched_text": "HubSpot",
+          "method": "keyword",
+          "sentence": "Simple reporting and analytics\n\n**Pricing**\n\n1. **HubSpot**:\n\t*",
+          "sentence_index": 14,
+          "char_offset": 1507,
+          "sentiment": 0.0,
+          "sentiment_label": "neutral"
+        },
+        {
+          "brand": "HubSpot",
+          "matched_text": "HubSpot",
+          "method": "keyword",
+          "sentence": "* Enterprise plan: $150/user/month (billed annually)\n3. **Pipedrive**:\n\t* Essential plan: $15/user/month (billed annually)\n\t* Advanced plan: $29/user/month (billed annually)\n\t* Professional plan: $59/user/month (billed annually)\n\n**Scalability and Customization**\n\n1. **HubSpot**: Highly scalable, with a user-friendly interface and customizable workflows.",
+          "sentence_index": 17,
+          "char_offset": 2074,
+          "sentiment": 0.165,
+          "sentiment_label": "positive"
+        },
+        {
+          "brand": "HubSpot",
+          "matched_text": "HubSpot",
+          "method": "keyword",
+          "sentence": "**HubSpot**: Integrates with a wide range of tools, including Google Calendar, LinkedIn, and Facebook.",
+          "sentence_index": 23,
+          "char_offset": 2451,
+          "sentiment": -0.1,
+          "sentiment_label": "negative"
+        },
+        {
+          "brand": "HubSpot",
+          "matched_text": "HubSpot",
+          "method": "keyword",
+          "sentence": "3. **Pipedrive**: Integrates with Google Calendar, LinkedIn, and other tools, but with limited options compared to HubSpot and Salesforce.",
+          "sentence_index": 25,
+          "char_offset": 2779,
+          "sentiment": -0.0982,
+          "sentiment_label": "negative"
+        },
+        {
+          "brand": "HubSpot",
+          "matched_text": "HubSpot",
+          "method": "keyword",
+          "sentence": "**HubSpot**: Offers extensive online resources, including tutorials, webinars, and a community forum.",
+          "sentence_index": 27,
+          "char_offset": 2834,
+          "sentiment": 0.05,
+          "sentiment_label": "neutral"
+        },
+        {
+          "brand": "HubSpot",
+          "matched_text": "HubSpot",
+          "method": "keyword",
+          "sentence": "HubSpot and Pipedrive are strong contenders.",
+          "sentence_index": 32,
+          "char_offset": 3263,
+          "sentiment": 0.4333,
+          "sentiment_label": "positive"
+        },
+        {
+          "brand": "HubSpot",
+          "matched_text": "HubSpot",
+          "method": "keyword",
+          "sentence": "HubSpot offers a more comprehensive platform with marketing and customer service tools, while Pipedrive provides a simple and intuitive sales-focused platform.",
+          "sentence_index": 33,
+          "char_offset": 3307,
+          "sentiment": 0.2,
+          "sentiment_label": "positive"
+        },
+        {
+          "brand": "HubSpot",
+          "matched_text": "HubSpot",
+          "method": "keyword",
+          "sentence": "**HubSpot**: Ideal for sales teams that want an all-in-one platform with marketing and customer service tools.",
+          "sentence_index": 36,
+          "char_offset": 3618,
+          "sentiment": 0.9,
+          "sentiment_label": "positive"
+        }
+      ]
+    },
+    {
+      "brand": "Salesforce",
+      "mentioned": true,
+      "mention_count": 10,
+      "first_mention_rank": 2,
+      "position_score": 0.5,
+      "avg_sentiment": 0.0558,
+      "sentiment_label": "positive",
+      "mentions": [
+        {
+          "brand": "Salesforce",
+          "matched_text": "Salesforce",
+          "method": "keyword",
+          "sentence": "Here's a comparison of HubSpot, Salesforce, and Pipedrive:\n\n**Overview**\n\n1. **HubSpot**: An all-in-one platform that offers sales, marketing, and customer service tools.",
+          "sentence_index": 1,
+          "char_offset": 185,
+          "sentiment": 0.1,
+          "sentiment_label": "positive"
+        },
+        {
+          "brand": "Salesforce",
+          "matched_text": "Salesforce",
+          "method": "keyword",
+          "sentence": "2. **Salesforce**: A comprehensive CRM platform that offers a wide range of sales, marketing, and customer service tools.",
+          "sentence_index": 3,
+          "char_offset": 402,
+          "sentiment": 0.0,
+          "sentiment_label": "neutral"
+        },
+        {
+          "brand": "Salesforce",
+          "matched_text": "Salesforce",
+          "method": "keyword",
+          "sentence": "**Salesforce**:\n\t* Sales pipeline management\n\t* Contact and account management\n\t*",
+          "sentence_index": 8,
+          "char_offset": 1008,
+          "sentiment": 0.0,
+          "sentiment_label": "neutral"
+        },
+        {
+          "brand": "Salesforce",
+          "matched_text": "Salesforce",
+          "method": "keyword",
+          "sentence": "* Enterprise plan: $120/user/month (billed annually)\n2. **Salesforce**:\n\t* Essentials plan: $25/user/month (billed annually)\n\t* Professional plan: $75/user/month (billed annually)",
+          "sentence_index": 16,
+          "char_offset": 1681,
+          "sentiment": 0.1,
+          "sentiment_label": "positive"
+        },
+        {
+          "brand": "Salesforce",
+          "matched_text": "Salesforce",
+          "method": "keyword",
+          "sentence": "2. **Salesforce**: Highly customizable, with a wide range of features and integrations.",
+          "sentence_index": 18,
+          "char_offset": 2166,
+          "sentiment": 0.03,
+          "sentiment_label": "neutral"
+        },
+        {
+          "brand": "Salesforce",
+          "matched_text": "Salesforce",
+          "method": "keyword",
+          "sentence": "2. **Salesforce**: Integrates with a vast ecosystem of tools, including Google Calendar, LinkedIn, and Twitter.",
+          "sentence_index": 24,
+          "char_offset": 2557,
+          "sentiment": 0.0,
+          "sentiment_label": "neutral"
+        },
+        {
+          "brand": "Salesforce",
+          "matched_text": "Salesforce",
+          "method": "keyword",
+          "sentence": "3. **Pipedrive**: Integrates with Google Calendar, LinkedIn, and other tools, but with limited options compared to HubSpot and Salesforce.",
+          "sentence_index": 25,
+          "char_offset": 2791,
+          "sentiment": -0.0982,
+          "sentiment_label": "negative"
+        },
+        {
+          "brand": "Salesforce",
+          "matched_text": "Salesforce",
+          "method": "keyword",
+          "sentence": "2. **Salesforce**: Provides comprehensive online resources, including tutorials, webinars, and a community forum.",
+          "sentence_index": 28,
+          "char_offset": 2939,
+          "sentiment": 0.0,
+          "sentiment_label": "neutral"
+        },
+        {
+          "brand": "Salesforce",
+          "matched_text": "Salesforce",
+          "method": "keyword",
+          "sentence": "Salesforce is a more robust option, but its complexity and higher pricing may make it less suitable for smaller sales teams.",
+          "sentence_index": 34,
+          "char_offset": 3468,
+          "sentiment": 0.2267,
+          "sentiment_label": "positive"
+        },
+        {
+          "brand": "Salesforce",
+          "matched_text": "Salesforce",
+          "method": "keyword",
+          "sentence": "3. **Salesforce**: Recommended for larger sales teams or those that require advanced customization and integration options.",
+          "sentence_index": 38,
+          "char_offset": 3832,
+          "sentiment": 0.2,
+          "sentiment_label": "positive"
+        }
+      ]
+    },
+    {
+      "brand": "Pipedrive",
+      "mentioned": true,
+      "mention_count": 10,
+      "first_mention_rank": 3,
+      "position_score": 0.5,
+      "avg_sentiment": 0.1364,
+      "sentiment_label": "positive",
+      "mentions": [
+        {
+          "brand": "Pipedrive",
+          "matched_text": "Pipedrive",
+          "method": "keyword",
+          "sentence": "Here's a comparison of HubSpot, Salesforce, and Pipedrive:\n\n**Overview**\n\n1. **HubSpot**: An all-in-one platform that offers sales, marketing, and customer service tools.",
+          "sentence_index": 1,
+          "char_offset": 201,
+          "sentiment": 0.1,
+          "sentiment_label": "positive"
+        },
+        {
+          "brand": "Pipedrive",
+          "matched_text": "Pipedrive",
+          "method": "keyword",
+          "sentence": "3. **Pipedrive**: A sales-focused platform that provides a simple, intuitive interface for managing sales pipelines and activities.",
+          "sentence_index": 5,
+          "char_offset": 587,
+          "sentiment": 0.0,
+          "sentiment_label": "neutral"
+        },
+        {
+          "brand": "Pipedrive",
+          "matched_text": "Pipedrive",
+          "method": "keyword",
+          "sentence": "Advanced reporting and analytics\n3. **Pipedrive**:\n\t* Sales pipeline management\n\t* Contact and company management\n\t*",
+          "sentence_index": 11,
+          "char_offset": 1256,
+          "sentiment": 0.4,
+          "sentiment_label": "positive"
+        },
+        {
+          "brand": "Pipedrive",
+          "matched_text": "Pipedrive",
+          "method": "keyword",
+          "sentence": "* Enterprise plan: $150/user/month (billed annually)\n3. **Pipedrive**:\n\t* Essential plan: $15/user/month (billed annually)\n\t* Advanced plan: $29/user/month (billed annually)\n\t* Professional plan: $59/user/month (billed annually)\n\n**Scalability and Customization**\n\n1. **HubSpot**: Highly scalable, with a user-friendly interface and customizable workflows.",
+          "sentence_index": 17,
+          "char_offset": 1862,
+          "sentiment": 0.165,
+          "sentiment_label": "positive"
+        },
+        {
+          "brand": "Pipedrive",
+          "matched_text": "Pipedrive",
+          "method": "keyword",
+          "sentence": "3. **Pipedrive**: Designed for small to medium-sized sales teams, with a simple and intuitive interface.",
+          "sentence_index": 20,
+          "char_offset": 2299,
+          "sentiment": -0.125,
+          "sentiment_label": "negative"
+        },
+        {
+          "brand": "Pipedrive",
+          "matched_text": "Pipedrive",
+          "method": "keyword",
+          "sentence": "3. **Pipedrive**: Integrates with Google Calendar, LinkedIn, and other tools, but with limited options compared to HubSpot and Salesforce.",
+          "sentence_index": 25,
+          "char_offset": 2669,
+          "sentiment": -0.0982,
+          "sentiment_label": "negative"
+        },
+        {
+          "brand": "Pipedrive",
+          "matched_text": "Pipedrive",
+          "method": "keyword",
+          "sentence": "3. **Pipedrive**: Offers online resources, including tutorials and a community forum, but with limited paid support options.",
+          "sentence_index": 30,
+          "char_offset": 3099,
+          "sentiment": 0.0143,
+          "sentiment_label": "neutral"
+        },
+        {
+          "brand": "Pipedrive",
+          "matched_text": "Pipedrive",
+          "method": "keyword",
+          "sentence": "HubSpot and Pipedrive are strong contenders.",
+          "sentence_index": 32,
+          "char_offset": 3275,
+          "sentiment": 0.4333,
+          "sentiment_label": "positive"
+        },
+        {
+          "brand": "Pipedrive",
+          "matched_text": "Pipedrive",
+          "method": "keyword",
+          "sentence": "HubSpot offers a more comprehensive platform with marketing and customer service tools, while Pipedrive provides a simple and intuitive sales-focused platform.",
+          "sentence_index": 33,
+          "char_offset": 3401,
+          "sentiment": 0.2,
+          "sentiment_label": "positive"
+        },
+        {
+          "brand": "Pipedrive",
+          "matched_text": "Pipedrive",
+          "method": "keyword",
+          "sentence": "2. **Pipedrive**: Suitable for sales teams that need a simple and intuitive sales-focused platform.",
+          "sentence_index": 37,
+          "char_offset": 3732,
+          "sentiment": 0.275,
+          "sentiment_label": "positive"
+        }
+      ]
+    },
+    {
+      "brand": "Monday.com",
+      "mentioned": false,
+      "mention_count": 0,
+      "first_mention_rank": null,
+      "position_score": 0.0,
+      "avg_sentiment": 0.0,
+      "sentiment_label": "neutral",
+      "mentions": []
+    },
+    {
+      "brand": "Notion",
+      "mentioned": false,
+      "mention_count": 0,
+      "first_mention_rank": null,
+      "position_score": 0.0,
+      "avg_sentiment": 0.0,
+      "sentiment_label": "neutral",
+      "mentions": []
+    },
+    {
+      "brand": "Linear",
+      "mentioned": false,
+      "mention_count": 0,
+      "first_mention_rank": null,
+      "position_score": 0.0,
+      "avg_sentiment": 0.0,
+      "sentiment_label": "neutral",
+      "mentions": []
+    }
+  ]
+}

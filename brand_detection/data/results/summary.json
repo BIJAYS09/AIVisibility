@@ -1,0 +1,541 @@
+{
+  "YourBrand": {
+    "mention_rate": 0.0,
+    "total_mentions": 0,
+    "mentioned_in": 0,
+    "avg_position_score": 0.0,
+    "avg_sentiment": 0.0,
+    "sentiment_label": "neutral",
+    "category_breakdown": {
+      "CRM": {
+        "total": 3,
+        "mentioned": 0,
+        "mention_rate": 0.0
+      },
+      "Project Management": {
+        "total": 2,
+        "mentioned": 0,
+        "mention_rate": 0.0
+      }
+    },
+    "prompt_details": [
+      {
+        "record_id": "1a262f0f-865e-4025-bbc0-b257e392f9dc",
+        "prompt_id": "crm-001",
+        "category": "CRM",
+        "prompt_text": "What are the best CRM tools for startups in 2024?",
+        "mentioned": false,
+        "mention_count": 0,
+        "position_score": 0.0,
+        "sentiment": 0.0,
+        "sentiment_label": "neutral"
+      },
+      {
+        "record_id": "9bf68ed4-949f-4317-818f-e279fd6256ab",
+        "prompt_id": "crm-002",
+        "category": "CRM",
+        "prompt_text": "Compare HubSpot, Salesforce, and Pipedrive for a 10-person sales team.",
+        "mentioned": false,
+        "mention_count": 0,
+        "position_score": 0.0,
+        "sentiment": 0.0,
+        "sentiment_label": "neutral"
+      },
+      {
+        "record_id": "5c01185b-029b-4517-af7a-a3a4ff586c00",
+        "prompt_id": "crm-003",
+        "category": "CRM",
+        "prompt_text": "Which CRM has the best free plan for early-stage companies?",
+        "mentioned": false,
+        "mention_count": 0,
+        "position_score": 0.0,
+        "sentiment": 0.0,
+        "sentiment_label": "neutral"
+      },
+      {
+        "record_id": "2b9ddc53-f747-42ac-bc01-74df2f882907",
+        "prompt_id": "pm-001",
+        "category": "Project Management",
+        "prompt_text": "What are the top project management tools for remote teams?",
+        "mentioned": false,
+        "mention_count": 0,
+        "position_score": 0.0,
+        "sentiment": 0.0,
+        "sentiment_label": "neutral"
+      },
+      {
+        "record_id": "4490d97a-022a-4cd5-b852-11c44889aa3a",
+        "prompt_id": "pm-002",
+        "category": "Project Management",
+        "prompt_text": "Is Notion or Linear better for a product team?",
+        "mentioned": false,
+        "mention_count": 0,
+        "position_score": 0.0,
+        "sentiment": 0.0,
+        "sentiment_label": "neutral"
+      }
+    ]
+  },
+  "HubSpot": {
+    "mention_rate": 60.0,
+    "total_mentions": 19,
+    "mentioned_in": 3,
+    "avg_position_score": 0.6,
+    "avg_sentiment": 0.2265,
+    "sentiment_label": "positive",
+    "category_breakdown": {
+      "CRM": {
+        "total": 3,
+        "mentioned": 3,
+        "mention_rate": 100.0
+      },
+      "Project Management": {
+        "total": 2,
+        "mentioned": 0,
+        "mention_rate": 0.0
+      }
+    },
+    "prompt_details": [
+      {
+        "record_id": "1a262f0f-865e-4025-bbc0-b257e392f9dc",
+        "prompt_id": "crm-001",
+        "category": "CRM",
+        "prompt_text": "What are the best CRM tools for startups in 2024?",
+        "mentioned": true,
+        "mention_count": 1,
+        "position_score": 1.0,
+        "sentiment": 0.3667,
+        "sentiment_label": "positive"
+      },
+      {
+        "record_id": "9bf68ed4-949f-4317-818f-e279fd6256ab",
+        "prompt_id": "crm-002",
+        "category": "CRM",
+        "prompt_text": "Compare HubSpot, Salesforce, and Pipedrive for a 10-person sales team.",
+        "mentioned": true,
+        "mention_count": 11,
+        "position_score": 1.0,
+        "sentiment": 0.1591,
+        "sentiment_label": "positive"
+      },
+      {
+        "record_id": "5c01185b-029b-4517-af7a-a3a4ff586c00",
+        "prompt_id": "crm-003",
+        "category": "CRM",
+        "prompt_text": "Which CRM has the best free plan for early-stage companies?",
+        "mentioned": true,
+        "mention_count": 7,
+        "position_score": 1.0,
+        "sentiment": 0.1536,
+        "sentiment_label": "positive"
+      },
+      {
+        "record_id": "2b9ddc53-f747-42ac-bc01-74df2f882907",
+        "prompt_id": "pm-001",
+        "category": "Project Management",
+        "prompt_text": "What are the top project management tools for remote teams?",
+        "mentioned": false,
+        "mention_count": 0,
+        "position_score": 0.0,
+        "sentiment": 0.0,
+        "sentiment_label": "neutral"
+      },
+      {
+        "record_id": "4490d97a-022a-4cd5-b852-11c44889aa3a",
+        "prompt_id": "pm-002",
+        "category": "Project Management",
+        "prompt_text": "Is Notion or Linear better for a product team?",
+        "mentioned": false,
+        "mention_count": 0,
+        "position_score": 0.0,
+        "sentiment": 0.0,
+        "sentiment_label": "neutral"
+      }
+    ]
+  },
+  "Salesforce": {
+    "mention_rate": 40.0,
+    "total_mentions": 12,
+    "mentioned_in": 2,
+    "avg_position_score": 0.2,
+    "avg_sentiment": 0.0529,
+    "sentiment_label": "positive",
+    "category_breakdown": {
+      "CRM": {
+        "total": 3,
+        "mentioned": 2,
+        "mention_rate": 66.7
+      },
+      "Project Management": {
+        "total": 2,
+        "mentioned": 0,
+        "mention_rate": 0.0
+      }
+    },
+    "prompt_details": [
+      {
+        "record_id": "1a262f0f-865e-4025-bbc0-b257e392f9dc",
+        "prompt_id": "crm-001",
+        "category": "CRM",
+        "prompt_text": "What are the best CRM tools for startups in 2024?",
+        "mentioned": true,
+        "mention_count": 2,
+        "position_score": 0.5,
+        "sentiment": 0.05,
+        "sentiment_label": "neutral"
+      },
+      {
+        "record_id": "9bf68ed4-949f-4317-818f-e279fd6256ab",
+        "prompt_id": "crm-002",
+        "category": "CRM",
+        "prompt_text": "Compare HubSpot, Salesforce, and Pipedrive for a 10-person sales team.",
+        "mentioned": true,
+        "mention_count": 10,
+        "position_score": 0.5,
+        "sentiment": 0.0558,
+        "sentiment_label": "positive"
+      },
+      {
+        "record_id": "5c01185b-029b-4517-af7a-a3a4ff586c00",
+        "prompt_id": "crm-003",
+        "category": "CRM",
+        "prompt_text": "Which CRM has the best free plan for early-stage companies?",
+        "mentioned": false,
+        "mention_count": 0,
+        "position_score": 0.0,
+        "sentiment": 0.0,
+        "sentiment_label": "neutral"
+      },
+      {
+        "record_id": "2b9ddc53-f747-42ac-bc01-74df2f882907",
+        "prompt_id": "pm-001",
+        "category": "Project Management",
+        "prompt_text": "What are the top project management tools for remote teams?",
+        "mentioned": false,
+        "mention_count": 0,
+        "position_score": 0.0,
+        "sentiment": 0.0,
+        "sentiment_label": "neutral"
+      },
+      {
+        "record_id": "4490d97a-022a-4cd5-b852-11c44889aa3a",
+        "prompt_id": "pm-002",
+        "category": "Project Management",
+        "prompt_text": "Is Notion or Linear better for a product team?",
+        "mentioned": false,
+        "mention_count": 0,
+        "position_score": 0.0,
+        "sentiment": 0.0,
+        "sentiment_label": "neutral"
+      }
+    ]
+  },
+  "Pipedrive": {
+    "mention_rate": 60.0,
+    "total_mentions": 14,
+    "mentioned_in": 3,
+    "avg_position_score": 0.3,
+    "avg_sentiment": 0.2582,
+    "sentiment_label": "positive",
+    "category_breakdown": {
+      "CRM": {
+        "total": 3,
+        "mentioned": 3,
+        "mention_rate": 100.0
+      },
+      "Project Management": {
+        "total": 2,
+        "mentioned": 0,
+        "mention_rate": 0.0
+      }
+    },
+    "prompt_details": [
+      {
+        "record_id": "1a262f0f-865e-4025-bbc0-b257e392f9dc",
+        "prompt_id": "crm-001",
+        "category": "CRM",
+        "prompt_text": "What are the best CRM tools for startups in 2024?",
+        "mentioned": true,
+        "mention_count": 1,
+        "position_score": 0.5,
+        "sentiment": 0.5,
+        "sentiment_label": "positive"
+      },
+      {
+        "record_id": "9bf68ed4-949f-4317-818f-e279fd6256ab",
+        "prompt_id": "crm-002",
+        "category": "CRM",
+        "prompt_text": "Compare HubSpot, Salesforce, and Pipedrive for a 10-person sales team.",
+        "mentioned": true,
+        "mention_count": 10,
+        "position_score": 0.5,
+        "sentiment": 0.1364,
+        "sentiment_label": "positive"
+      },
+      {
+        "record_id": "5c01185b-029b-4517-af7a-a3a4ff586c00",
+        "prompt_id": "crm-003",
+        "category": "CRM",
+        "prompt_text": "Which CRM has the best free plan for early-stage companies?",
+        "mentioned": true,
+        "mention_count": 3,
+        "position_score": 0.5,
+        "sentiment": 0.1381,
+        "sentiment_label": "positive"
+      },
+      {
+        "record_id": "2b9ddc53-f747-42ac-bc01-74df2f882907",
+        "prompt_id": "pm-001",
+        "category": "Project Management",
+        "prompt_text": "What are the top project management tools for remote teams?",
+        "mentioned": false,
+        "mention_count": 0,
+        "position_score": 0.0,
+        "sentiment": 0.0,
+        "sentiment_label": "neutral"
+      },
+      {
+        "record_id": "4490d97a-022a-4cd5-b852-11c44889aa3a",
+        "prompt_id": "pm-002",
+        "category": "Project Management",
+        "prompt_text": "Is Notion or Linear better for a product team?",
+        "mentioned": false,
+        "mention_count": 0,
+        "position_score": 0.0,
+        "sentiment": 0.0,
+        "sentiment_label": "neutral"
+      }
+    ]
+  },
+  "Monday.com": {
+    "mention_rate": 40.0,
+    "total_mentions": 3,
+    "mentioned_in": 2,
+    "avg_position_score": 0.3,
+    "avg_sentiment": 0.225,
+    "sentiment_label": "positive",
+    "category_breakdown": {
+      "CRM": {
+        "total": 3,
+        "mentioned": 1,
+        "mention_rate": 33.3
+      },
+      "Project Management": {
+        "total": 2,
+        "mentioned": 1,
+        "mention_rate": 50.0
+      }
+    },
+    "prompt_details": [
+      {
+        "record_id": "1a262f0f-865e-4025-bbc0-b257e392f9dc",
+        "prompt_id": "crm-001",
+        "category": "CRM",
+        "prompt_text": "What are the best CRM tools for startups in 2024?",
+        "mentioned": true,
+        "mention_count": 1,
+        "position_score": 0.5,
+        "sentiment": 0.0,
+        "sentiment_label": "neutral"
+      },
+      {
+        "record_id": "9bf68ed4-949f-4317-818f-e279fd6256ab",
+        "prompt_id": "crm-002",
+        "category": "CRM",
+        "prompt_text": "Compare HubSpot, Salesforce, and Pipedrive for a 10-person sales team.",
+        "mentioned": false,
+        "mention_count": 0,
+        "position_score": 0.0,
+        "sentiment": 0.0,
+        "sentiment_label": "neutral"
+      },
+      {
+        "record_id": "5c01185b-029b-4517-af7a-a3a4ff586c00",
+        "prompt_id": "crm-003",
+        "category": "CRM",
+        "prompt_text": "Which CRM has the best free plan for early-stage companies?",
+        "mentioned": false,
+        "mention_count": 0,
+        "position_score": 0.0,
+        "sentiment": 0.0,
+        "sentiment_label": "neutral"
+      },
+      {
+        "record_id": "2b9ddc53-f747-42ac-bc01-74df2f882907",
+        "prompt_id": "pm-001",
+        "category": "Project Management",
+        "prompt_text": "What are the top project management tools for remote teams?",
+        "mentioned": true,
+        "mention_count": 2,
+        "position_score": 1.0,
+        "sentiment": 0.45,
+        "sentiment_label": "positive"
+      },
+      {
+        "record_id": "4490d97a-022a-4cd5-b852-11c44889aa3a",
+        "prompt_id": "pm-002",
+        "category": "Project Management",
+        "prompt_text": "Is Notion or Linear better for a product team?",
+        "mentioned": false,
+        "mention_count": 0,
+        "position_score": 0.0,
+        "sentiment": 0.0,
+        "sentiment_label": "neutral"
+      }
+    ]
+  },
+  "Notion": {
+    "mention_rate": 20.0,
+    "total_mentions": 8,
+    "mentioned_in": 1,
+    "avg_position_score": 0.2,
+    "avg_sentiment": 0.1228,
+    "sentiment_label": "positive",
+    "category_breakdown": {
+      "CRM": {
+        "total": 3,
+        "mentioned": 0,
+        "mention_rate": 0.0
+      },
+      "Project Management": {
+        "total": 2,
+        "mentioned": 1,
+        "mention_rate": 50.0
+      }
+    },
+    "prompt_details": [
+      {
+        "record_id": "1a262f0f-865e-4025-bbc0-b257e392f9dc",
+        "prompt_id": "crm-001",
+        "category": "CRM",
+        "prompt_text": "What are the best CRM tools for startups in 2024?",
+        "mentioned": false,
+        "mention_count": 0,
+        "position_score": 0.0,
+        "sentiment": 0.0,
+        "sentiment_label": "neutral"
+      },
+      {
+        "record_id": "9bf68ed4-949f-4317-818f-e279fd6256ab",
+        "prompt_id": "crm-002",
+        "category": "CRM",
+        "prompt_text": "Compare HubSpot, Salesforce, and Pipedrive for a 10-person sales team.",
+        "mentioned": false,
+        "mention_count": 0,
+        "position_score": 0.0,
+        "sentiment": 0.0,
+        "sentiment_label": "neutral"
+      },
+      {
+        "record_id": "5c01185b-029b-4517-af7a-a3a4ff586c00",
+        "prompt_id": "crm-003",
+        "category": "CRM",
+        "prompt_text": "Which CRM has the best free plan for early-stage companies?",
+        "mentioned": false,
+        "mention_count": 0,
+        "position_score": 0.0,
+        "sentiment": 0.0,
+        "sentiment_label": "neutral"
+      },
+      {
+        "record_id": "2b9ddc53-f747-42ac-bc01-74df2f882907",
+        "prompt_id": "pm-001",
+        "category": "Project Management",
+        "prompt_text": "What are the top project management tools for remote teams?",
+        "mentioned": false,
+        "mention_count": 0,
+        "position_score": 0.0,
+        "sentiment": 0.0,
+        "sentiment_label": "neutral"
+      },
+      {
+        "record_id": "4490d97a-022a-4cd5-b852-11c44889aa3a",
+        "prompt_id": "pm-002",
+        "category": "Project Management",
+        "prompt_text": "Is Notion or Linear better for a product team?",
+        "mentioned": true,
+        "mention_count": 8,
+        "position_score": 1.0,
+        "sentiment": 0.1228,
+        "sentiment_label": "positive"
+      }
+    ]
+  },
+  "Linear": {
+    "mention_rate": 20.0,
+    "total_mentions": 11,
+    "mentioned_in": 1,
+    "avg_position_score": 0.1,
+    "avg_sentiment": 0.1719,
+    "sentiment_label": "positive",
+    "category_breakdown": {
+      "CRM": {
+        "total": 3,
+        "mentioned": 0,
+        "mention_rate": 0.0
+      },
+      "Project Management": {
+        "total": 2,
+        "mentioned": 1,
+        "mention_rate": 50.0
+      }
+    },
+    "prompt_details": [
+      {
+        "record_id": "1a262f0f-865e-4025-bbc0-b257e392f9dc",
+        "prompt_id": "crm-001",
+        "category": "CRM",
+        "prompt_text": "What are the best CRM tools for startups in 2024?",
+        "mentioned": false,
+        "mention_count": 0,
+        "position_score": 0.0,
+        "sentiment": 0.0,
+        "sentiment_label": "neutral"
+      },
+      {
+        "record_id": "9bf68ed4-949f-4317-818f-e279fd6256ab",
+        "prompt_id": "crm-002",
+        "category": "CRM",
+        "prompt_text": "Compare HubSpot, Salesforce, and Pipedrive for a 10-person sales team.",
+        "mentioned": false,
+        "mention_count": 0,
+        "position_score": 0.0,
+        "sentiment": 0.0,
+        "sentiment_label": "neutral"
+      },
+      {
+        "record_id": "5c01185b-029b-4517-af7a-a3a4ff586c00",
+        "prompt_id": "crm-003",
+        "category": "CRM",
+        "prompt_text": "Which CRM has the best free plan for early-stage companies?",
+        "mentioned": false,
+        "mention_count": 0,
+        "position_score": 0.0,
+        "sentiment": 0.0,
+        "sentiment_label": "neutral"
+      },
+      {
+        "record_id": "2b9ddc53-f747-42ac-bc01-74df2f882907",
+        "prompt_id": "pm-001",
+        "category": "Project Management",
+        "prompt_text": "What are the top project management tools for remote teams?",
+        "mentioned": false,
+        "mention_count": 0,
+        "position_score": 0.0,
+        "sentiment": 0.0,
+        "sentiment_label": "neutral"
+      },
+      {
+        "record_id": "4490d97a-022a-4cd5-b852-11c44889aa3a",
+        "prompt_id": "pm-002",
+        "category": "Project Management",
+        "prompt_text": "Is Notion or Linear better for a product team?",
+        "mentioned": true,
+        "mention_count": 11,
+        "position_score": 0.5,
+        "sentiment": 0.1719,
+        "sentiment_label": "positive"
+      }
+    ]
+  }
+}
