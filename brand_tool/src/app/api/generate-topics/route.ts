@@ -1,6 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { collectBrandProfile } from "@/app/api/collector/groq";
-import { parseJSON } from "@/lib/json";
+import { callGroq, parseJSON } from "@/lib/groq";
 
 export async function POST(req: NextRequest) {
   const { profile } = await req.json();
@@ -18,10 +17,12 @@ Generate 8-10 topic categories that potential customers would search for when lo
 Each topic should represent a distinct buyer intent or use case.
 
 Return this exact JSON array:
-[
-  { "name": "Topic category name" },
-  ...
-]
+{
+  "topics": [
+    { "name": "Topic category name" },
+    ...
+  ]
+}
 
 Rules:
 - Topics should be 3-6 words
@@ -30,11 +31,16 @@ Rules:
 - A buyer searching these topics might discover or compare this brand`;
 
   try {
-    const text = await collectBrandProfile(system, user, 600);
-    
-    const profile = parseJSON(text, null);
-    if (!profile) throw new Error("Failed to parse profile");
-    return NextResponse.json(profile);
+    const text = await callGroq(system, user, 600);
+    console.log("Raw topics from Groq:", text);
+    const raw = parseJSON<{ topics: { name: string }[] }>(text, { topics: [] });
+    console.log("Raw topics after parsing:", raw);
+    const topics = (raw.topics ?? []).map((t: { name: any; }, i: any) => ({
+      id: `topic-${i}`,
+      name: t.name,
+      selected: true,
+    }));
+    return NextResponse.json({ topics });
   } catch (e: any) {
     return NextResponse.json({ error: e.message }, { status: 500 });
   }

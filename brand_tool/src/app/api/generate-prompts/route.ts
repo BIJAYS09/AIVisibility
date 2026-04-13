@@ -1,43 +1,55 @@
 import { NextRequest, NextResponse } from "next/server";
-import { callClaude, parseJSON } from "@/lib/claude";
-import { v4 as uuid } from "crypto";
+import { callGroq, parseJSON } from "@/lib/groq";
 
 export async function POST(req: NextRequest) {
-  const { profile } = await req.json();
+  const { profile, topics } = await req.json();
 
-  const system = `You generate search topic categories for brand visibility research.
+  const selected = topics.filter((t: any) => t.selected);
+
+  const system = `You generate realistic search queries for brand visibility research.
 Respond ONLY with a valid JSON array. No markdown, no explanation.`;
+
+  const allPrompts: any[] = [];
+
+  // Generate prompts for each topic (batch to save API calls)
+  const topicList = selected.map((t: any) => `- ${t.name} (id: ${t.id})`).join("\n");
 
   const user = `Brand: ${profile.name}
 Description: ${profile.description}
 Industry: ${profile.industry}
-Products/Services: ${profile.products?.join(", ")}
-Identity: ${profile.identity?.join(", ")}
+Products: ${profile.products?.join(", ")}
 
-Generate 8-10 topic categories that potential customers would search for when looking for products/services like this brand's.
-Each topic should represent a distinct buyer intent or use case.
+Topics:
+${topicList}
 
-Return this exact JSON array:
-[
-  { "name": "Topic category name" },
-  ...
-]
+For EACH topic, generate exactly 8 realistic search queries that a potential buyer might ask an AI assistant.
+Queries should vary in:
+- Buyer sophistication (casual "help me find" → technical evaluation queries)
+- Intent (discovery, comparison, feature research, pricing, alternatives)
+- Specificity (broad category → specific use case)
 
-Rules:
-- Topics should be 3-6 words
-- Cover different aspects: features, use cases, buyer types, comparisons, problems solved
-- Make them specific to this brand's space, not generic
-- A buyer searching these topics might discover or compare this brand`;
+Return this exact JSON array (one entry per prompt):
+{
+  "topic_categories": [
+    { "topicId": "topic-0", "topicName": "Topic name", "text": "The full search query" },
+    ...
+  ]
+}
+
+Generate all prompts for all topics in one array.`;
 
   try {
-    const text = await callClaude(system, user, 600);
-    const raw = parseJSON<{ name: string }[]>(text, []);
-    const topics = raw.map((t, i) => ({
-      id: `topic-${i}`,
-      name: t.name,
+    const text = await callGroq(system, user, 3000);
+    const raw = parseJSON<{ topic_categories: { topicId: string; topicName: string; text: string }[] }>(text, { topic_categories: [] });
+    console.log("Raw prompts from Groq:", raw);
+    const prompts = (raw.topic_categories ?? []).map((p: { topicId: any; topicName: any; text: any; }, i: any) => ({
+      id: `prompt-${i}`,
+      topicId: p.topicId,
+      topicName: p.topicName,
+      text: p.text,
       selected: true,
     }));
-    return NextResponse.json({ topics });
+    return NextResponse.json({ prompts });
   } catch (e: any) {
     return NextResponse.json({ error: e.message }, { status: 500 });
   }

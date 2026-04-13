@@ -1,6 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { callClaude } from "@/lib/claude";
-import { parseJSON } from "@/lib/json";
+import { callGroq, parseJSON } from "@/lib/groq";
 
 export async function POST(req: NextRequest) {
   const { brand, prompts } = await req.json();
@@ -27,9 +26,9 @@ Return:
 ]`;
 
   try {
-    const text = await callClaude(system, user, 1500);
+    const text = await callGroq(system, user, 1500);
     const suggestions = parseJSON(text, []);
-    return NextResponse.json({ suggestions });
+    return NextResponse.json( suggestions );
   } catch (e: any) {
     return NextResponse.json({ error: e.message }, { status: 500 });
   }

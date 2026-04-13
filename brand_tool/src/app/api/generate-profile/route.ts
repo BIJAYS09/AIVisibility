@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { callClaude, parseJSON } from "@/lib/claude";
+import { callGroq } from "../collector/groq";
 
 export async function POST(req: NextRequest) {
   const { pages, brandName, url } = await req.json();
@@ -34,7 +35,7 @@ Rules:
 - Keep all values concise`;
 
   try {
-    const text = await callClaude(system, user, 800);
+    const text = await callGroq(system, user, 800);
     const profile = parseJSON(text, null);
     if (!profile) throw new Error("Failed to parse profile");
     return NextResponse.json(profile);
